@@ -1,17 +1,25 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Agent from "../components/ai_agent";
-import Brand1 from "../components/brand";
+// import Brand1 from "../components/brand";
 
-import PageTitle4 from "../components/pagetitle";
+// import PageTitle4 from "../components/pagetitle";
 import CaseStudies from "../components/casestudies";
+import Freeconsole from "../components/freeconsole";
+import Historyline from "../components/home_experience"; //導入動畫
+import Systemlist from "../components/systemlist";
+import Contact from "../components/contact";
+import HomeCustomer from "../components/home_customer";
+import Hero3 from "../components/herotest";
+
 
 
 import "/src/index.css";
 import "../assets/css/home.css";
 
 const Home = () => {
+
   return (
-    <div>
+    <div className="home-container">
       {/* bg fixed */}
       <div className="section-bg">
       </div>
@@ -21,23 +29,22 @@ const Home = () => {
         <div className="section_title_border w-[60px] md:w-[100px] md:mr-20 shrink-0"></div>
 
         <div className="pt-10 md:pt-1 w-full md:w-7/12">
-          <h1 className="section-title mb-8 text-6xl font-bold text-dark dark:text-white text-3xl sm:text-4xl md:text-6xl">Secure Edge AI solutions</h1>
-          <p className="section-content text-white leading-7">
-            Secure Edge AI 管理平台是一個專為部署、監控和管理邊緣裝置上運行的 AI
-            應用程式而設計的綜合解決方案。本平台以安全性、可擴展性和易用性為核心，提供完整的Edge
-            AI agent 生命週期管理。
-            平台採用分層架構，包括邊緣層、平台核心層以及介面與整合層，確保從裝置到雲端的無縫連接與管理。透過強大的功能模組，使組織能夠充分發揮邊緣
-            AI 的潛力，同時維持高度的安全標準。
+          <h1 className="section-title mb-8 font-bold text-dark dark:text-white text-2xl sm:text-4xl md:text-6xl">從平台到模型，打造您的 AI 競爭優勢</h1>
+          <p className="section-content text-white leading-6 sm:leading-7 text-sm sm:text-base md:text-xl">
+            我們提供量身打造企業級的 AIMS人工智慧管理、FMS設施與設備管理、CMS數位看板管理系統，結合專業 AI 模型優化與高效硬體整合，助您實現卓越營運與智慧創新。
           </p>
+          <Freeconsole />
         </div>
-
-
       </div>
-   
+
       <Agent />
+      <Historyline />
+      <Systemlist />
       <CaseStudies />
-      <PageTitle4 />
-      <Brand1 />
+
+      <Contact />
+      <HomeCustomer />
+      <Hero3 />
     </div>
   );
 };

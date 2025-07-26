@@ -71,7 +71,7 @@ export default function Brand1() {
                 <div className="h-20 md:h-24 col-span-1"></div>
             </div>
 
-            <div className="grid grid-cols-13">
+            <div className="grid grid-cols-13 container">
                 <div className="col-span-1 bg_border_r"></div>
                 <div className="col-span-2 bg_border_r p-2">
                     <span className="little_number">04</span><br />

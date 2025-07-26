@@ -1,8 +1,12 @@
 .morebutton {
-    border-radius:30px; 
-    left:7.6%;
+    border-radius: 30px;
+    width:100px;
+    left: 10%;
+    top: 100%;
+    transform: translateX(100%);
+    transform: translateY(-100%);
     /* 30px */
-    border: 1px solid  #f3dd52;
+    border: 1px solid #f3dd52;
     color: #f3dd52;
 }
 

@@ -1,0 +1,17 @@
+.predict-circle1 {
+    position: relative;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-image: linear-gradient(135deg, #226f8b, #184e61);
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.2);
+}
+
+.predict-circle1::before {
+    position: absolute;
+    top: 0;
+    content: "";
+    display: inline-block;
+    border: 5px solid #f3dd52;
+    width: 10px;
+    height: 100%;
+}

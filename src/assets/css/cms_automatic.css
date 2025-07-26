@@ -1,0 +1,9 @@
+.predict-wrap{
+    box-shadow:  6px 6px 6px rgba(243, 221, 82, 0.5);
+}
+
+.predict-list-number {
+    position: relative;
+    background-image: linear-gradient(135deg, #2cdbc1, #1d6079);
+    color:#f3dd52;
+}

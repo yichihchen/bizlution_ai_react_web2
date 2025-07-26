@@ -1,0 +1,181 @@
+.devices-bg {
+    position: fixed;
+    z-index: -3;
+    width: 100vw;
+    height: 100%;
+
+    background-image: url(../images/devices/devices_bg1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* let header move together with bg */
+    top: 0%;
+}
+
+.device-box {
+    padding: 2px;
+    /* 模擬 border 粗細 */
+    border-radius: 30px;
+    /* background: linear-gradient(to right, #0aa9c5, #3b82f6, #ecd32c); */
+}
+
+/* 定義動畫 - 先顯示後淡出 */
+
+@keyframes fadeInThenOut {
+    0% {
+        opacity: 0;
+    }
+
+    45% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.download-round-lines {
+    position: absolute;
+    /* width: 320px;
+    height: 320px; */
+    width: 92%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    border: 2px solid #ffd166;
+    /* background-color: #f3d552; */
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+}
+
+
+
+.download-round-linem {
+    position: absolute;
+    /* width: 340px;
+    height: 340px; */
+    width: 96%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    border: 2px solid #ffd166;
+    /* background-color: #f3d552; */
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+}
+
+.download-round-lineb {
+    position: absolute;
+    /* width: 360px;
+    height: 360px; */
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    border: 2px solid #ffd166;
+    /* border: 2px solid #f3d552; */
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+}
+
+@media(min-width:1024px) {
+    .download-round-lines {
+        width: 240px;
+        height: 240px;
+
+    }
+
+    .download-round-linem {
+        width: 260px;
+        height: 260px;
+    }
+
+    .download-round-lineb {
+        width: 280px;
+        height: 280px;
+
+    }
+}
+
+
+/* hover 時啟動動畫 */
+.download-round-box:hover .download-round-lines {
+    animation: fadeInThenOut 1s forwards;
+}
+
+.download-round-box:hover .download-round-linem {
+    animation: fadeInThenOut 1.2s forwards;
+    animation-delay: 0.2s;
+}
+
+.download-round-box:hover .download-round-lineb {
+    animation: fadeInThenOut 1.5s forwards;
+    animation-delay: 0.4s;
+}
+
+.download-round-box {
+    width: 80%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    text-align: center;
+}
+
+@media(min-width:1024px) {
+    .download-round-box {
+        width: 28%;
+    }
+}
+
+
+
+.download-round-box:hover {
+
+    border-radius: 50%;
+    text-align: center;
+}
+
+@media(min-width:1024px) {
+    .download-round-box:hover {
+        width: 28%;
+    }
+}
+
+.font-icon {
+    width: 30%;
+    height: 100%;
+}
+
+@media(min-width:1768px) {
+    .font-icon {
+        width: 50%;
+        height: 100%;
+    }
+}
+
+@media(min-width:1024px) {
+    .font-icon {
+        width: 25%;
+        height: 100%;
+    }
+}
+
+.device-content {
+    border-radius: 26px;
+}
+
+.device-contentwrap {
+    padding: 2px;
+    /* 模擬 border 粗細 */
+    border-radius: 30px;
+
+}
+
+.device-contentwrap:hover {
+    background: linear-gradient(to right, #ecd32c, #3b82f6, #f04770); 
+    transition-duration: 0.3s;
+    box-shadow: 20px -20px teal;
+}

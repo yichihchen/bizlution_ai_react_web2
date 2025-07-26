@@ -1,0 +1,12 @@
+.cms-bg {
+    position: fixed;
+    z-index: -3;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/homepage/cms_bg_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* let header move together with bg */
+    top: 0%;
+}

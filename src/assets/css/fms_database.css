@@ -1,0 +1,6 @@
+.space-bg {
+    background-image: url(../images/fms/fms_space.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

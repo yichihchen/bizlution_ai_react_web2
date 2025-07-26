@@ -1,0 +1,53 @@
+/* .hardware_nav{
+    border: 1px solid rgba(243, 221, 82, 0.3);
+} */
+
+.hardware_navwrap {
+    /* position: relative; */
+    left: 10px;
+
+}
+
+.hardware_nav:hover {
+    /* border: 1px solid rgba(240, 71, 112, 0.3); */
+    background-color: rgba(243, 221, 82, 0.2);
+    color: white;
+    transition-duration: 0.3s;
+    font-weight: bold;
+}
+
+.hardware_nav::before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    border: 1px solid rgba(243, 221, 82, 0.4);
+    top: 0;
+    width: 1px;
+    height: 100%;
+
+}
+
+.software_navwrap {
+    position: relative;
+    left: 10px;
+
+}
+
+.software_nav:hover {
+    /* border: 1px solid rgba(243, 221, 82, 0.3); */
+    background-color: rgba(243, 221, 82, 0.2);
+    color: white;
+    transition-duration: 0.3s;
+    font-weight: bold;
+}
+
+.software_nav::before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    border: 1px solid rgba(243, 221, 82, 0.4);
+    top: 0;
+    width: 1px;
+    height: 100%;
+
+}

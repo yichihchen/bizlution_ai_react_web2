@@ -2,6 +2,7 @@
 position: fixed;
 } */
 
+
 .contactbutton {
     border-radius: 30px;
     border: 1px solid #ffffff;
@@ -17,6 +18,6 @@ position: fixed;
 }
 
 /* navbarToggler 位置 */
-#navbarToggler{
+#navbarToggler {
     transform: translateY(-50%);
 }

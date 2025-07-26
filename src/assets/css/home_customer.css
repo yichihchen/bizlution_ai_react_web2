@@ -1,0 +1,32 @@
+.chatbot_dialogue {
+    top: -300px;
+
+}
+
+.ai-msg {
+    display: flex;
+    width: 95%;
+    padding: 0.8rem;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    /* margin-right: auto; */
+}
+
+.ai-head{
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+
+.user-head{
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+
+.user-msg {
+    display: flex;
+    width: 95%;
+    padding: 0.8rem;
+    background-color: rgba(240, 71, 112, 0.9);
+    border-radius: 10px;
+    margin-left: auto;
+}

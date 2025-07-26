@@ -1,0 +1,27 @@
+.aims-bg {
+    position: fixed;
+    /* position: absolute; */
+    z-index: -3;
+    width: 100vw;
+    height: 100%;
+    background-image: url(../images/homepage/aims_bg_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* let header move together with bg */
+    top: 0%;
+}
+
+.aims_linkbutton {
+    border-radius: 30px;
+    border: 1px solid #f3dd52;
+    color: #f3dd52;
+}
+
+
+.aims_linkbutton:hover {
+    border: 2px solid #f3dd52;
+    color: rgba(17, 25, 40, 0.8);
+    /* bg:dark */
+    background-color: #f3dd52;
+}

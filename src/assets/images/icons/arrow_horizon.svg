@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_圖層_2" data-name="圖層 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 76.84 107.09">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3 {
+        fill: #f3dd52;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" y="65.92" width="41.23" height="41.17"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" x="35.66" y="65.92" width="41.18" height="41.17"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-1" x="35.66" width="5.56" height="94.2"/>
+    </clipPath>
+  </defs>
+  <g id="_圖層_1-2" data-name="圖層 1">
+    <g class="cls-5">
+      <path class="cls-3" d="M.12,71.42v-5.31c22.57,0,40.94,18.37,40.94,40.94h-5.31c0-19.65-15.98-35.63-35.63-35.63Z"/>
+    </g>
+    <g class="cls-2">
+      <path class="cls-3" d="M35.86,107.05c0-22.57,18.37-40.94,40.94-40.94v5.31c-19.65,0-35.63,15.98-35.63,35.63h-5.31Z"/>
+    </g>
+    <g class="cls-4">
+      <path class="cls-3" d="M41.11,94.01V-5.32h-5.31v99.33h5.31Z"/>
+    </g>
+  </g>
+</svg>

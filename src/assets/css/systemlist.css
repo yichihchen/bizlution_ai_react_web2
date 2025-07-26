@@ -1,0 +1,14 @@
+.systemlist_wrap {
+    padding: 2px; /* 模擬 border 粗細 */
+    border-radius: 30px;
+    /* background: linear-gradient(to right, #06b6d4, #3b82f6, #8b5cf6); */
+    background: linear-gradient(to right, #0aa9c5, #3b82f6, #ecd32c);
+}
+
+.systemlist_wrap:hover{
+    background: linear-gradient(to right, #0aa9c5, #3b82f6, #f04770);
+}
+
+.systemlist_card {
+    border-radius: 26px; /* 比外層小一點，讓它包在裡面 */
+}
